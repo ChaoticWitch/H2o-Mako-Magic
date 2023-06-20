@@ -1163,3 +1163,6 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Character_Remotes"):WaitForChild("Sirena"):FireServer(unpack(args))
     print("Clicked")
 end)
+local Tab = Window:NewTab("Credits")
+local Section = Tab:NewSection("Melanie")
+local Section = Tab:NewSection("Discord:Ash#9326")
